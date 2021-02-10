@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 6</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você esta vendo a imagem completa? Experimente ampliar o <br> tamanho da janela para ve-la em sua totalidade</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="./imagens/paisagem-p.png">
+        <source media="(max-width: 1000px)" srcset="./imagens/paisagem-m.png">
+        <img src="imagens/paisagem-g.png" alt="Imagem de uma moça">
+    </picture>
+</body>
+</html>
